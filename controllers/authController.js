@@ -13,7 +13,7 @@ const registerUser = async (req, res) => {
         if (!userName || !email || !password || !answer) {
             return res.status(400).json({
                 success: false,
-                message: "Please enter required details"
+                message: "Please enter required details" 
             });
         }
         //-----Check User----------------

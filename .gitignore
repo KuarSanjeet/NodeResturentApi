@@ -1,4 +1,4 @@
 node_modules/
-*/log/
+utils/logs/
 .env
 package-lock.json
