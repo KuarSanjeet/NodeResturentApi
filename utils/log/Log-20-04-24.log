@@ -1,0 +1,550 @@
+[2024-04-20 14:14:00] - ============ Request Start ============
+[2024-04-20 14:14:00] - Incoming Request - Method: POST
+[2024-04-20 14:14:00] - Body: {"answer":"Pets","newPassword":"testing123"}
+[2024-04-20 14:14:00] - Path: /updatePassword
+[2024-04-20 14:14:00] - Outgoing Response - Status: 400
+[2024-04-20 14:14:00] - Body: {"success":false,"message":"Please enter correct answer"}
+[2024-04-20 14:14:00] - ============ Request Start ============
+[2024-04-20 14:14:00] - Incoming Request - Method: POST
+[2024-04-20 14:14:00] - Body: {"userName":"Sayan","email":"sayan@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 14:14:00] - Path: /register
+[2024-04-20 14:14:00] - User Data: {
+  _id: new ObjectId('66220f93a8c61f72c73d035e'),
+  userName: 'Sayan',
+  email: 'sayan@gmail.com',
+  password: '$2a$10$2xca5QWbB7JlE4GRncSdrOI94hyrFU.fib1xiZy8oipg6AZ4ZGLde',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-19T06:30:43.411Z,
+  updatedAt: 2024-04-19T06:30:43.411Z,
+  __v: 0
+}
+[2024-04-20 14:14:00] - Outgoing Response - Status: 400
+[2024-04-20 14:14:00] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 14:14:00] - Incoming Request - Method: POST
+[2024-04-20 14:14:00] - ============ Request Start ============
+[2024-04-20 14:14:00] - Path: /createCategory
+[2024-04-20 14:14:00] - Body: {"title":"Fast Food","imageUrl":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Ffast-food-logo.html&psig=AOvVaw04fKyLt_BSB7sw8ncHW-Sp&ust=1713528909914000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCB3uHey4UDFQAAAAAdAAAAABAP"}
+[2024-04-20 14:14:00] - Outgoing Response - Status: 401
+[2024-04-20 14:14:00] - Body: {"success":false,"message":"Duplicate Category"}
+[2024-04-20 14:14:00] - ============ Request Start ============
+[2024-04-20 14:14:00] - Incoming Request - Method: POST
+[2024-04-20 14:14:00] - Path: /createCategory
+[2024-04-20 14:14:00] - Body: {"title":"Fast Food","imageUrl":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Ffast-food-logo.html&psig=AOvVaw04fKyLt_BSB7sw8ncHW-Sp&ust=1713528909914000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCB3uHey4UDFQAAAAAdAAAAABAP"}
+[2024-04-20 14:14:00] - Outgoing Response - Status: 401
+[2024-04-20 14:14:00] - Body: {"success":false,"message":"Duplicate Category"}
+[2024-04-20 16:07:53] - ============ Request Start ============
+[2024-04-20 16:07:53] - Incoming Request - Method: POST
+[2024-04-20 16:07:53] - Body: {"userName":"sanjeet","email":"sanjeet@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:07:53] - Path: /register
+[2024-04-20 16:07:53] - User Data: null
+[2024-04-20 16:07:53] - Outgoing Response - Status: 500
+[2024-04-20 16:07:53] - Body: {"success":false,"message":"Internal Server Error","error":"generatePDF is not a function"}
+[2024-04-20 16:11:14] - ============ Request Start ============
+[2024-04-20 16:11:14] - Incoming Request - Method: POST
+[2024-04-20 16:11:14] - Path: /register
+[2024-04-20 16:11:14] - Body: {"userName":"sanjeet","email":"sanjeet@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:11:14] - User Data: {
+  _id: new ObjectId('66239b847b4400fb9e1be7e3'),
+  userName: 'sanjeet',
+  email: 'sanjeet@gmail.com',
+  password: '$2a$10$AnLlQGMeuE2YCabrV6O6F.EZqYHzqvXO.q/RdcbaQN.f4/ImpO8Fy',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T10:40:04.130Z,
+  updatedAt: 2024-04-20T10:40:04.130Z,
+  __v: 0
+}
+[2024-04-20 16:11:14] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 16:11:14] - Outgoing Response - Status: 400
+[2024-04-20 16:11:14] - ============ Request Start ============
+[2024-04-20 16:11:14] - Incoming Request - Method: POST
+[2024-04-20 16:11:14] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:11:14] - Path: /register
+[2024-04-20 16:11:14] - User Data: null
+[2024-04-20 16:11:14] - Outgoing Response - Status: 500
+[2024-04-20 16:11:14] - Body: {"success":false,"message":"Internal Server Error","error":"Invalid login: 534-5.7.9 Application-specific password required. For more information, go to\n534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor nv5-20020a17090b1b4500b002a2f055e52csm6172307pjb.34 - gsmtp"}
+[2024-04-20 16:11:14] - ============ Request Start ============
+[2024-04-20 16:11:14] - Incoming Request - Method: POST
+[2024-04-20 16:11:14] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:11:14] - Path: /register
+[2024-04-20 16:11:14] - User Data: {
+  _id: new ObjectId('66239c3d8c8c4aba39677adc'),
+  userName: 'sanjeet',
+  email: 'sanjeet.k@mantralabsglobal.com',
+  password: '$2a$10$/qjiL/BwgJyJo/8KON07Bey57gwwg/xBy/NlMPFVGnvXzxiCBcuJK',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T10:43:09.508Z,
+  updatedAt: 2024-04-20T10:43:09.508Z,
+  __v: 0
+}
+[2024-04-20 16:11:14] - Outgoing Response - Status: 400
+[2024-04-20 16:11:14] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 16:16:37] - ============ Request Start ============
+[2024-04-20 16:16:37] - Incoming Request - Method: POST
+[2024-04-20 16:16:37] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:16:37] - Path: /register
+[2024-04-20 16:16:37] - User Data: null
+[2024-04-20 16:16:37] - Body: {"success":false,"message":"Internal Server Error","error":"req is not defined"}
+[2024-04-20 16:16:37] - Outgoing Response - Status: 500
+[2024-04-20 16:33:53] - ============ Request Start ============
+[2024-04-20 16:33:53] - Incoming Request - Method: POST
+[2024-04-20 16:33:53] - Path: /register
+[2024-04-20 16:33:53] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:33:53] - User Data: {
+  _id: new ObjectId('6623a092daab12736ef49591'),
+  userName: 'sanjeet',
+  email: 'sanjeet.k@mantralabsglobal.com',
+  password: '$2a$10$uejbnedZGCUH9Jmzk.TJhOYaV2QhKaHVS5zL/DyWv.g2.CIAW7RUy',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T11:01:38.534Z,
+  updatedAt: 2024-04-20T11:01:38.534Z,
+  __v: 0
+}
+[2024-04-20 16:33:53] - Outgoing Response - Status: 400
+[2024-04-20 16:33:53] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 16:33:53] - ============ Request Start ============
+[2024-04-20 16:33:53] - Incoming Request - Method: POST
+[2024-04-20 16:33:53] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:33:53] - Path: /register
+[2024-04-20 16:33:53] - User Data: null
+[2024-04-20 16:33:53] - Outgoing Response - Status: 500
+[2024-04-20 16:33:53] - Body: {"success":false,"message":"Internal Server Error","error":"generatePDF is not defined"}
+[2024-04-20 16:34:52] - ============ Request Start ============
+[2024-04-20 16:34:52] - Incoming Request - Method: POST
+[2024-04-20 16:34:52] - Path: /register
+[2024-04-20 16:34:52] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 16:34:52] - User Data: null
+[2024-04-20 16:34:52] - Outgoing Response - Status: 500
+[2024-04-20 16:34:52] - Body: {"success":false,"message":"Internal Server Error","error":"Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials je2-20020a170903264200b001e5df38994dsm4824003plb.248 - gsmtp"}
+[2024-04-20 17:08:39] - ============ Request Start ============
+[2024-04-20 17:08:39] - Incoming Request - Method: POST
+[2024-04-20 17:08:39] - Path: /register
+[2024-04-20 17:08:39] - Body: {"userName":"sanjeet","email":"sanjeet.k@mantralabsglobal.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:08:39] - User Data: null
+[2024-04-20 17:08:39] - Outgoing Response - Status: 201
+[2024-04-20 17:08:39] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:12:45] - ============ Request Start ============
+[2024-04-20 17:12:45] - Incoming Request - Method: POST
+[2024-04-20 17:12:45] - Path: /register
+[2024-04-20 17:12:45] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:12:45] - User Data: null
+[2024-04-20 17:12:45] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:12:45] - Outgoing Response - Status: 201
+[2024-04-20 17:13:33] - ============ Request Start ============
+[2024-04-20 17:13:33] - Path: /register
+[2024-04-20 17:13:33] - Incoming Request - Method: POST
+[2024-04-20 17:13:33] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:13:33] - User Data: null
+[2024-04-20 17:13:33] - Outgoing Response - Status: 500
+[2024-04-20 17:13:33] - Body: {"success":false,"message":"Internal Server Error","error":"Invalid login: 535 Authentication failed"}
+[2024-04-20 17:14:18] - ============ Request Start ============
+[2024-04-20 17:14:18] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:14:18] - Incoming Request - Method: POST
+[2024-04-20 17:14:18] - Path: /register
+[2024-04-20 17:14:18] - User Data: null
+[2024-04-20 17:14:18] - Outgoing Response - Status: 201
+[2024-04-20 17:14:18] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:17:34] - ============ Request Start ============
+[2024-04-20 17:17:34] - Incoming Request - Method: POST
+[2024-04-20 17:17:34] - Path: /register
+[2024-04-20 17:17:34] - Body: {"userName":"sanjeet","email":"kuarsanjeet3327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:17:34] - User Data: null
+[2024-04-20 17:17:34] - Outgoing Response - Status: 201
+[2024-04-20 17:17:34] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:17:34] - ============ Request Start ============
+[2024-04-20 17:17:34] - Incoming Request - Method: POST
+[2024-04-20 17:17:34] - Path: /register
+[2024-04-20 17:17:34] - Body: {"userName":"sanjeet","email":"kuarsanjeet3327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:17:34] - User Data: {
+  _id: new ObjectId('6623ab8f1ec87ec5b9d90c6c'),
+  userName: 'sanjeet',
+  email: 'kuarsanjeet3327@gmail.com',
+  password: '$2a$10$4BmEEv7CxtfUS.Q7ud3iZ.WReR4km3wJzKYmSHxFoDYrwUA32zMWG',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T11:48:31.678Z,
+  updatedAt: 2024-04-20T11:48:31.678Z,
+  __v: 0
+}
+[2024-04-20 17:17:34] - Outgoing Response - Status: 400
+[2024-04-20 17:17:34] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 17:19:13] - ============ Request Start ============
+[2024-04-20 17:19:13] - Path: /register
+[2024-04-20 17:19:13] - Body: {"userName":"sanjeet","email":"kuarsanjeet3327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:19:13] - Incoming Request - Method: POST
+[2024-04-20 17:19:13] - User Data: null
+[2024-04-20 17:19:13] - Outgoing Response - Status: 201
+[2024-04-20 17:19:13] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:47:05] - Path: /register
+[2024-04-20 17:47:05] - Incoming Request - Method: POST
+[2024-04-20 17:47:05] - ============ Request Start ============
+[2024-04-20 17:47:05] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:47:05] - User Data: null
+[2024-04-20 17:47:05] - Outgoing Response - Status: 500
+[2024-04-20 17:47:05] - Body: {"success":false,"message":"Internal Server Error","error":"Can't send mail - all recipients were rejected: 501 Syntax error in parameters or arguments"}
+[2024-04-20 17:48:27] - Incoming Request - Method: POST
+[2024-04-20 17:48:27] - ============ Request Start ============
+[2024-04-20 17:48:27] - Path: /register
+[2024-04-20 17:48:27] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:48:27] - User Data: null
+[2024-04-20 17:48:27] - Outgoing Response - Status: 201
+[2024-04-20 17:48:27] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:52:29] - ============ Request Start ============
+[2024-04-20 17:52:29] - Path: /register
+[2024-04-20 17:52:29] - Incoming Request - Method: POST
+[2024-04-20 17:52:29] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:52:29] - User Data: {
+  _id: new ObjectId('6623b2a228de6a2313abd100'),
+  userName: 'sanjeet',
+  email: 'kuarsanjeet327@gmail.com',
+  password: '$2a$10$6LF3RW7M8ElStAYNlQsN1.cDrcU8MNqrXn8jcg.aadPAtb8OZBBie',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T12:18:42.790Z,
+  updatedAt: 2024-04-20T12:18:42.790Z,
+  __v: 0
+}
+[2024-04-20 17:52:29] - Outgoing Response - Status: 400
+[2024-04-20 17:52:29] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 17:52:29] - ============ Request Start ============
+[2024-04-20 17:52:29] - Path: /register
+[2024-04-20 17:52:29] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:52:29] - Incoming Request - Method: POST
+[2024-04-20 17:52:29] - User Data: null
+[2024-04-20 17:52:29] - Outgoing Response - Status: 201
+[2024-04-20 17:52:29] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:58:20] - ============ Request Start ============
+[2024-04-20 17:58:20] - Incoming Request - Method: POST
+[2024-04-20 17:58:20] - Path: /register
+[2024-04-20 17:58:20] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:58:20] - User Data: null
+[2024-04-20 17:58:20] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 17:58:20] - Outgoing Response - Status: 201
+[2024-04-20 17:58:46] - ============ Request Start ============
+[2024-04-20 17:58:46] - Incoming Request - Method: POST
+[2024-04-20 17:58:46] - Path: /register
+[2024-04-20 17:58:46] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:58:46] - User Data: null
+[2024-04-20 17:58:46] - Outgoing Response - Status: 500
+[2024-04-20 17:58:46] - Body: {"success":false,"message":"Internal Server Error","error":"Missing credentials for \"PLAIN\""}
+[2024-04-20 17:58:46] - ============ Request Start ============
+[2024-04-20 17:58:46] - Incoming Request - Method: POST
+[2024-04-20 17:58:46] - Path: /register
+[2024-04-20 17:58:46] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:58:46] - User Data: {
+  _id: new ObjectId('6623b51b1b891ac108c815ad'),
+  userName: 'sanjeet',
+  email: 'kuarsanjeet327@gmail.com',
+  password: '$2a$10$ys2sPizhz2FtJkfDJZttf./MYVxtP16aD0.fGIWdvM4MxSC6hGevm',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T12:29:15.274Z,
+  updatedAt: 2024-04-20T12:29:15.274Z,
+  __v: 0
+}
+[2024-04-20 17:58:46] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 17:58:46] - Outgoing Response - Status: 400
+[2024-04-20 17:58:46] - ============ Request Start ============
+[2024-04-20 17:58:46] - Incoming Request - Method: POST
+[2024-04-20 17:58:46] - Path: /register
+[2024-04-20 17:58:46] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 17:58:46] - User Data: null
+[2024-04-20 17:58:46] - Outgoing Response - Status: 500
+[2024-04-20 17:58:46] - Body: {"success":false,"message":"Internal Server Error","error":"Missing credentials for \"PLAIN\""}
+[2024-04-20 18:00:52] - Incoming Request - Method: POST
+[2024-04-20 18:00:52] - ============ Request Start ============
+[2024-04-20 18:00:52] - Path: /register
+[2024-04-20 18:00:52] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:00:52] - User Data: null
+[2024-04-20 18:00:52] - Outgoing Response - Status: 201
+[2024-04-20 18:00:52] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:05:45] - ============ Request Start ============
+[2024-04-20 18:05:45] - Incoming Request - Method: POST
+[2024-04-20 18:05:45] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:05:45] - Path: /register
+[2024-04-20 18:05:45] - User Data: null
+[2024-04-20 18:05:45] - Outgoing Response - Status: 201
+[2024-04-20 18:05:45] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:09:46] - ============ Request Start ============
+[2024-04-20 18:09:46] - Incoming Request - Method: POST
+[2024-04-20 18:09:46] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:09:46] - Path: /register
+[2024-04-20 18:09:46] - User Data: null
+[2024-04-20 18:09:46] - Outgoing Response - Status: 201
+[2024-04-20 18:09:46] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:15:44] - ============ Request Start ============
+[2024-04-20 18:15:44] - Incoming Request - Method: POST
+[2024-04-20 18:15:44] - Path: /register
+[2024-04-20 18:15:44] - Body: {"userName":"sanjeet","email":"kuarsanjeet327@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:15:44] - User Data: null
+[2024-04-20 18:15:44] - Outgoing Response - Status: 201
+[2024-04-20 18:15:44] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:15:44] - Incoming Request - Method: POST
+[2024-04-20 18:15:44] - ============ Request Start ============
+[2024-04-20 18:15:44] - Path: /register
+[2024-04-20 18:15:44] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:15:44] - User Data: null
+[2024-04-20 18:15:44] - Outgoing Response - Status: 201
+[2024-04-20 18:15:44] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:18:22] - ============ Request Start ============
+[2024-04-20 18:18:22] - Incoming Request - Method: POST
+[2024-04-20 18:18:22] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:18:22] - Path: /register
+[2024-04-20 18:18:22] - User Data: null
+[2024-04-20 18:18:22] - Outgoing Response - Status: 201
+[2024-04-20 18:18:22] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:20:28] - Incoming Request - Method: POST
+[2024-04-20 18:20:28] - ============ Request Start ============
+[2024-04-20 18:20:28] - Path: /register
+[2024-04-20 18:20:28] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:20:28] - User Data: null
+[2024-04-20 18:20:28] - Outgoing Response - Status: 201
+[2024-04-20 18:20:28] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:24:36] - ============ Request Start ============
+[2024-04-20 18:24:36] - Incoming Request - Method: POST
+[2024-04-20 18:24:36] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:24:36] - Path: /register
+[2024-04-20 18:24:36] - User Data: null
+[2024-04-20 18:24:36] - Outgoing Response - Status: 201
+[2024-04-20 18:24:36] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:33:59] - ============ Request Start ============
+[2024-04-20 18:33:59] - Incoming Request - Method: POST
+[2024-04-20 18:33:59] - Path: /register
+[2024-04-20 18:33:59] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:33:59] - User Data: null
+[2024-04-20 18:33:59] - Outgoing Response - Status: 201
+[2024-04-20 18:33:59] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:45:59] - ============ Request Start ============
+[2024-04-20 18:45:59] - Incoming Request - Method: POST
+[2024-04-20 18:45:59] - Path: /register
+[2024-04-20 18:45:59] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:45:59] - User Data: null
+[2024-04-20 18:45:59] - Outgoing Response - Status: 201
+[2024-04-20 18:45:59] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:46:47] - ============ Request Start ============
+[2024-04-20 18:46:47] - Incoming Request - Method: POST
+[2024-04-20 18:46:47] - Path: /register
+[2024-04-20 18:46:47] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:46:47] - Outgoing Response - Status: 500
+[2024-04-20 18:46:47] - Body: {"success":false,"message":"Internal Server Error","error":"Operation `users.findOne()` buffering timed out after 10000ms"}
+[2024-04-20 18:46:47] - ============ Request Start ============
+[2024-04-20 18:46:47] - Incoming Request - Method: POST
+[2024-04-20 18:46:47] - Path: /register
+[2024-04-20 18:46:47] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:46:47] - Outgoing Response - Status: 500
+[2024-04-20 18:46:47] - Body: {"success":false,"message":"Internal Server Error","error":"Operation `users.findOne()` buffering timed out after 10000ms"}
+[2024-04-20 18:47:43] - ============ Request Start ============
+[2024-04-20 18:47:43] - Incoming Request - Method: POST
+[2024-04-20 18:47:43] - Path: /register
+[2024-04-20 18:47:43] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:47:43] - User Data: null
+[2024-04-20 18:47:43] - Outgoing Response - Status: 201
+[2024-04-20 18:47:43] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:48:39] - ============ Request Start ============
+[2024-04-20 18:48:39] - Incoming Request - Method: POST
+[2024-04-20 18:48:39] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:48:39] - Path: /register
+[2024-04-20 18:48:39] - User Data: null
+[2024-04-20 18:48:39] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:48:39] - Outgoing Response - Status: 201
+[2024-04-20 18:51:16] - ============ Request Start ============
+[2024-04-20 18:51:16] - Incoming Request - Method: POST
+[2024-04-20 18:51:16] - Path: /register
+[2024-04-20 18:51:16] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:51:16] - User Data: null
+[2024-04-20 18:51:16] - Outgoing Response - Status: 201
+[2024-04-20 18:51:16] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 18:58:02] - ============ Request Start ============
+[2024-04-20 18:58:02] - Incoming Request - Method: POST
+[2024-04-20 18:58:02] - Path: /register
+[2024-04-20 18:58:02] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:58:02] - User Data: null
+[2024-04-20 18:58:02] - Outgoing Response - Status: 500
+[2024-04-20 18:58:02] - Body: {"success":false,"message":"Internal Server Error","error":"path is not defined"}
+[2024-04-20 18:58:49] - ============ Request Start ============
+[2024-04-20 18:58:49] - Incoming Request - Method: POST
+[2024-04-20 18:58:49] - Path: /register
+[2024-04-20 18:58:49] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 18:58:49] - User Data: null
+[2024-04-20 18:58:49] - Outgoing Response - Status: 500
+[2024-04-20 18:58:49] - Body: {"success":false,"message":"Internal Server Error","error":"The \"path\" argument must be of type string or an instance of Buffer or URL. Received type number (NaN)"}
+[2024-04-20 19:00:15] - ============ Request Start ============
+[2024-04-20 19:00:15] - Incoming Request - Method: POST
+[2024-04-20 19:00:15] - Path: /register
+[2024-04-20 19:00:15] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 19:00:15] - User Data: null
+[2024-04-20 19:00:15] - Outgoing Response - Status: 201
+[2024-04-20 19:00:15] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 21:44:56] - ============ Request Start ============
+[2024-04-20 21:44:56] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 21:44:56] - Incoming Request - Method: POST
+[2024-04-20 21:44:56] - Path: /register
+[2024-04-20 21:44:56] - User Data: null
+[2024-04-20 21:44:56] - Outgoing Response - Status: 201
+[2024-04-20 21:44:56] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 21:49:08] - ============ Request Start ============
+[2024-04-20 21:49:08] - Incoming Request - Method: POST
+[2024-04-20 21:49:08] - Path: /register
+[2024-04-20 21:49:08] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 21:49:08] - User Data: null
+[2024-04-20 21:49:08] - Outgoing Response - Status: 201
+[2024-04-20 21:49:08] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 21:51:27] - ============ Request Start ============
+[2024-04-20 21:51:27] - Incoming Request - Method: POST
+[2024-04-20 21:51:27] - Path: /register
+[2024-04-20 21:51:27] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 21:51:27] - User Data: null
+[2024-04-20 21:51:27] - Outgoing Response - Status: 201
+[2024-04-20 21:51:27] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 21:55:34] - ============ Request Start ============
+[2024-04-20 21:55:34] - Path: /register
+[2024-04-20 21:55:34] - Incoming Request - Method: POST
+[2024-04-20 21:55:34] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 21:55:34] - User Data: null
+[2024-04-20 21:55:34] - Outgoing Response - Status: 500
+[2024-04-20 21:55:34] - Body: {"success":false,"message":"Internal Server Error","error":"ENOENT: no such file or directory, open './logo.png'"}
+[2024-04-20 22:01:24] - ============ Request Start ============
+[2024-04-20 22:01:24] - Incoming Request - Method: POST
+[2024-04-20 22:01:24] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:01:24] - Path: /register
+[2024-04-20 22:01:24] - User Data: null
+[2024-04-20 22:01:24] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:01:24] - Outgoing Response - Status: 201
+[2024-04-20 22:08:34] - ============ Request Start ============
+[2024-04-20 22:08:34] - Incoming Request - Method: POST
+[2024-04-20 22:08:34] - Path: /register
+[2024-04-20 22:08:34] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:08:34] - User Data: null
+[2024-04-20 22:08:34] - Outgoing Response - Status: 201
+[2024-04-20 22:08:34] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:10:08] - ============ Request Start ============
+[2024-04-20 22:10:08] - Incoming Request - Method: POST
+[2024-04-20 22:10:08] - Path: /register
+[2024-04-20 22:10:08] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:10:08] - User Data: null
+[2024-04-20 22:10:08] - Outgoing Response - Status: 201
+[2024-04-20 22:10:08] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:12:57] - ============ Request Start ============
+[2024-04-20 22:12:57] - Incoming Request - Method: POST
+[2024-04-20 22:12:57] - Path: /register
+[2024-04-20 22:12:57] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:12:57] - User Data: null
+[2024-04-20 22:12:57] - Outgoing Response - Status: 201
+[2024-04-20 22:12:57] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:14:41] - ============ Request Start ============
+[2024-04-20 22:14:41] - Incoming Request - Method: POST
+[2024-04-20 22:14:41] - Path: /register
+[2024-04-20 22:14:41] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:14:41] - User Data: null
+[2024-04-20 22:14:41] - Outgoing Response - Status: 201
+[2024-04-20 22:14:41] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:15:35] - ============ Request Start ============
+[2024-04-20 22:15:35] - Incoming Request - Method: POST
+[2024-04-20 22:15:35] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:15:35] - Path: /register
+[2024-04-20 22:15:35] - User Data: null
+[2024-04-20 22:15:35] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:15:35] - Outgoing Response - Status: 201
+[2024-04-20 22:16:46] - ============ Request Start ============
+[2024-04-20 22:16:46] - Path: /register
+[2024-04-20 22:16:46] - Incoming Request - Method: POST
+[2024-04-20 22:16:46] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:16:46] - Body: {"success":false,"message":"Internal Server Error","error":"read ECONNRESET"}
+[2024-04-20 22:16:46] - Outgoing Response - Status: 500
+[2024-04-20 22:42:51] - Incoming Request - Method: POST
+[2024-04-20 22:42:51] - ============ Request Start ============
+[2024-04-20 22:42:51] - Path: /register
+[2024-04-20 22:42:51] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:42:51] - User Data: null
+[2024-04-20 22:42:51] - Outgoing Response - Status: 201
+[2024-04-20 22:42:51] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:45:16] - ============ Request Start ============
+[2024-04-20 22:45:16] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:45:16] - Incoming Request - Method: POST
+[2024-04-20 22:45:16] - Path: /register
+[2024-04-20 22:45:16] - User Data: null
+[2024-04-20 22:45:16] - Outgoing Response - Status: 201
+[2024-04-20 22:45:16] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:47:52] - ============ Request Start ============
+[2024-04-20 22:47:52] - Incoming Request - Method: POST
+[2024-04-20 22:47:52] - Path: /register
+[2024-04-20 22:47:52] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:47:52] - User Data: null
+[2024-04-20 22:47:52] - Outgoing Response - Status: 201
+[2024-04-20 22:47:52] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:50:06] - ============ Request Start ============
+[2024-04-20 22:50:06] - Incoming Request - Method: POST
+[2024-04-20 22:50:06] - Path: /register
+[2024-04-20 22:50:06] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:50:06] - User Data: null
+[2024-04-20 22:50:06] - Outgoing Response - Status: 201
+[2024-04-20 22:50:06] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:56:38] - ============ Request Start ============
+[2024-04-20 22:56:38] - Incoming Request - Method: POST
+[2024-04-20 22:56:38] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:56:38] - Path: /register
+[2024-04-20 22:56:38] - User Data: null
+[2024-04-20 22:56:38] - Outgoing Response - Status: 201
+[2024-04-20 22:56:38] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:58:46] - ============ Request Start ============
+[2024-04-20 22:58:46] - Incoming Request - Method: POST
+[2024-04-20 22:58:46] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:58:46] - Path: /register
+[2024-04-20 22:58:46] - User Data: null
+[2024-04-20 22:58:46] - Outgoing Response - Status: 201
+[2024-04-20 22:58:46] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 22:59:51] - ============ Request Start ============
+[2024-04-20 22:59:51] - Incoming Request - Method: POST
+[2024-04-20 22:59:51] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 22:59:51] - Path: /register
+[2024-04-20 22:59:51] - User Data: null
+[2024-04-20 22:59:51] - Outgoing Response - Status: 201
+[2024-04-20 22:59:51] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 23:01:36] - ============ Request Start ============
+[2024-04-20 23:01:36] - Incoming Request - Method: POST
+[2024-04-20 23:01:36] - Path: /register
+[2024-04-20 23:01:36] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 23:01:36] - User Data: null
+[2024-04-20 23:01:36] - Outgoing Response - Status: 201
+[2024-04-20 23:01:36] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 23:03:39] - ============ Request Start ============
+[2024-04-20 23:03:39] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 23:03:39] - Path: /register
+[2024-04-20 23:03:39] - Incoming Request - Method: POST
+[2024-04-20 23:03:39] - Outgoing Response - Status: 400
+[2024-04-20 23:03:39] - Body: {"success":false,"message":"Email Already Registered. Please Login"}
+[2024-04-20 23:03:39] - User Data: {
+  _id: new ObjectId('6623fc01e39d41cf5f8038a4'),
+  userName: 'sanjeet',
+  email: 'jokerworldkkbro@gmail.com',
+  password: '$2a$10$vlvIBDest6rHFbZm/oOc3.c8/eFCdT8QsAzoN1DMM1Ry1bsNJ7kDi',
+  address: [ { village: 'Khaira Asha', Pin: 841420 } ],
+  answer: 'Cat',
+  createdAt: 2024-04-20T17:31:45.126Z,
+  updatedAt: 2024-04-20T17:31:45.126Z,
+  __v: 0
+}
+[2024-04-20 23:07:59] - ============ Request Start ============
+[2024-04-20 23:07:59] - Incoming Request - Method: POST
+[2024-04-20 23:07:59] - Path: /register
+[2024-04-20 23:07:59] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 23:07:59] - User Data: null
+[2024-04-20 23:07:59] - Outgoing Response - Status: 201
+[2024-04-20 23:07:59] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 23:11:13] - ============ Request Start ============
+[2024-04-20 23:11:13] - Incoming Request - Method: POST
+[2024-04-20 23:11:13] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 23:11:13] - Path: /register
+[2024-04-20 23:11:13] - User Data: null
+[2024-04-20 23:11:13] - Body: {"success":true,"message":"User registered successfully"}
+[2024-04-20 23:11:13] - Outgoing Response - Status: 201
+[2024-04-20 23:12:28] - ============ Request Start ============
+[2024-04-20 23:12:28] - Incoming Request - Method: POST
+[2024-04-20 23:12:28] - Path: /register
+[2024-04-20 23:12:28] - Body: {"userName":"sanjeet","email":"jokerworldkkbro@gmail.com","password":"test@123","address":{"village":"Khaira Asha","Pin":841420},"answer":"Cat"}
+[2024-04-20 23:12:28] - User Data: null
+[2024-04-20 23:12:28] - Outgoing Response - Status: 201
+[2024-04-20 23:12:28] - Body: {"success":true,"message":"User registered successfully"}
