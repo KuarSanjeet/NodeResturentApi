@@ -25,6 +25,7 @@
     "nodemailer": "^6.9.13",
     "pdfkit": "^0.15.0",
     "redis": "^4.6.13",
+    "rollbar": "^2.26.4",
     "util": "^0.12.5"
   },
   "devDependencies": {
